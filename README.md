@@ -2,7 +2,8 @@
 
 A java starter app for the beginner using maven build test and deploy java (spring) app or lib.
 
-This contains two module, one is the lib module called `base-lib` and another is spring app module called `spring-app`.
+This contains three modules, the lib module called `base-lib`, the spring app module called `spring-app`, and the third
+lib module called `third-lib`.
 
 They can stand for the construction of most app.
 
