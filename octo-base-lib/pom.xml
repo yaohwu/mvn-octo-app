@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>base-lib</artifactId>
+    <artifactId>octo-base-lib</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>xyz.yaohwu.octo</groupId>
-            <artifactId>third-lib</artifactId>
+            <artifactId>octo-third-lib</artifactId>
             <version>${revision}</version>
         </dependency>
     </dependencies>

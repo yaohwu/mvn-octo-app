@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-app</artifactId>
+    <artifactId>octo-spring-app</artifactId>
 
     <properties>
         <start-class>xyz.yaohwu.app.Application</start-class>
@@ -22,13 +22,13 @@
     <dependencies>
         <dependency>
             <groupId>xyz.yaohwu.octo</groupId>
-            <artifactId>base-lib</artifactId>
+            <artifactId>octo-base-lib</artifactId>
             <version>${revision}</version>
         </dependency>
 
         <dependency>
             <groupId>xyz.yaohwu.octo</groupId>
-            <artifactId>base-lib</artifactId>
+            <artifactId>octo-base-lib</artifactId>
             <version>${revision}</version>
             <classifier>tests</classifier>
             <type>test-jar</type>

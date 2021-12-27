@@ -2,12 +2,12 @@
 
 A java starter app for the beginner using maven build test and deploy java (spring) app or lib.
 
-This contains three modules, the lib module called `base-lib`, the spring app module called `spring-app`, and the third
-lib module called `third-lib`.
+This contains three modules, the lib module called `octo-base-lib`, the spring app module called `octo-spring-app`, and
+the third lib module called `octo-third-lib`.
 
 They can stand for the construction of most app.
 
-## build
+## use
 
 Just build with
 
@@ -15,12 +15,12 @@ Just build with
 mvn clean install
 ```
 
-Then you will get the `spring-app-2021.12-SNAPSHOT-app-fatty.jar` in `spring-app/target` folder.
+Then you will get the `octo-spring-app-2021.12-SNAPSHOT-app-fatty.jar` in `octo-spring-app/target` folder.
 
 You can run the spring app with
 
 ```shell
-java -jar spring-app/target/spring-app-2021.12-SNAPSHOT-app-fatty.jar
+java -jar octo-spring-app/target/octo-spring-app-2021.12-SNAPSHOT-app-fatty.jar
 ```
 
 With a new terminal window
@@ -30,17 +30,19 @@ curl http://localhost:8078/app/hello
 # Hello World!
 ```
 
+## problems solved
+
+Using this code repository template can solve many problems bellow.
+
 ### build in a shade jar
 
 ### build a executable spring app jar
-
-## test
 
 ### use dependency module test jar
 
 ### generate test coverage report
 
-## deploy
+### deploy
 
 Follow [this](https://stackoverflow.com/a/42917618/7859396) to create account and distribute your public key.
 

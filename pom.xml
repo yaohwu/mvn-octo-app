@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>${revision}</version>
     <modules>
-        <module>base-lib</module>
-        <module>spring-app</module>
-        <module>third-lib</module>
+        <module>octo-base-lib</module>
+        <module>octo-spring-app</module>
+        <module>octo-third-lib</module>
     </modules>
 
 
